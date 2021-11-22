@@ -1,7 +1,7 @@
 --Made by : https://v3rmillion.net/member.php?action=profile&uid=244024
 -- init
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxciaz/VenyxUI/main/Reuploaded"))() --someone reuploaded it so I put it in place of the original back up so guy can get free credit.
-local venyx = library.new("Venyx", 5013109572)
+local venyx = library.new("DARK HUB", 5013109572)
 
 -- themes
 local themes = {
@@ -14,12 +14,12 @@ TextColor = Color3.fromRGB(255, 255, 255)
 }
 
 -- first page
-local page = venyx:addPage("Test", 5012544693)
-local section1 = page:addSection("Section 1")
-local section2 = page:addSection("Section 2")
+local page = venyx:addPage("FARM", 5012544693)
+local section1 = page:addSection("AUTO FARM")
+local section2 = page:addSection("Select")
 
-section1:addToggle("Toggle", nil, function(value)
-print("Toggled", value)
+section1:addToggle("AUTO FARM", nil, function(value)
+loadstring(game:HttpGet("https://pastebin.com/raw/1EQmGiQr", true))()
 end)
 section1:addButton("Button", function()
 print("Clicked")
